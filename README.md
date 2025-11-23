@@ -1,4 +1,4 @@
-# Senior Engineer Portfolio & Blog
+# My Portfolio & Blog
 
 A minimalist, high-performance personal portfolio and blog built with **SvelteKit**, **TypeScript**, and **Docker**.
 
