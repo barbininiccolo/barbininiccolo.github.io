@@ -126,6 +126,7 @@
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Typescript</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Svelte</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Docker</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Virtual Environments</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Network architecture</span>
 				</div>
 			</li>
@@ -155,7 +156,7 @@
 		</ol>
 	</div>
 	<div class="mb-20">
-		<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-10 ml-3">Languages and my Proficiency</h2>
+		<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-10 ml-3">Languages and Proficiency levels</h2>
 		
 		<ol class="relative border-l-2 border-gray-100 dark:border-gray-800 ml-3 space-y-16">
 			
