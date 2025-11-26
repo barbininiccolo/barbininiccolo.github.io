@@ -155,6 +155,8 @@
 			</li>
 		</ol>
 	</div>
+
+	<!-- Languages Section -->
 	<div class="mb-20">
 		<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-10 ml-3">Languages and Proficiency levels</h2>
 		
@@ -162,26 +164,70 @@
 			
 			<!-- Languages Node -->
 			<li class="ml-10">
+				<!-- Icon -->
 				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
 					<div class="w-3 h-3 bg-gray-400 rounded-full"></div>
 				</span>
 				
-				<h3 class="flex items-center mb-4 text-3xl font-bold text-gray-900 dark:text-white">
+				<h3 class="flex items-center mb-6 text-3xl font-bold text-gray-900 dark:text-white">
 					Languages
 				</h3>
 				
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
-					<div class="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-100 dark:border-gray-800">
-						<span class="block text-xl font-bold text-gray-900 dark:text-white">English</span>
-						<span class="text-gray-500 dark:text-gray-400">Native / Bilingual Proficiency</span>
+				<!-- Language Cards Grid -->
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl">
+					
+					<!-- Card 1: English -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Bilingual Proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">English</h4>
+							</div>
+							<!-- 5/5 Dots Visualization -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+							</div>
+						</div>
 					</div>
-					<div class="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-100 dark:border-gray-800">
-						<span class="block text-xl font-bold text-gray-900 dark:text-white">German</span>
-						<span class="text-gray-500 dark:text-gray-400">Elementary Proficiency (A2)</span>
+
+					<!-- Card 2: German -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Elementary (A2)</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">German</h4>
+							</div>
+							<!-- 1/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
 					</div>
-					<div class="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-100 dark:border-gray-800">
-						<span class="block text-xl font-bold text-gray-900 dark:text-white">Italian</span>
-						<span class="text-gray-500 dark:text-gray-400">Native / Bilingual Proficiency</span>
+
+					<!-- Card 3: Italian -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Native</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">Italian</h4>
+							</div>
+							<!-- 5/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>								
+							</div>
+						</div>
 					</div>
 				</div>
 			</li>
