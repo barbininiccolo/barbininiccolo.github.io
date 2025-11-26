@@ -1,7 +1,7 @@
 <div class="max-w-4xl mx-auto">
     <div class="mb-16">
-      <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Work and research experience.</h1>
-      <p class="text-2xl text-gray-400 font-light">My professional journey.</p>
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Work and research experiences</h1>
+      <p class="text-2xl text-gray-400 font-light">My professional journey. Between industry, academia and government</p>
     </div>
   
     <ol class="relative border-l-2 border-gray-100 dark:border-gray-800 ml-3 space-y-16">                  
