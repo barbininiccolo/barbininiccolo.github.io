@@ -27,6 +27,7 @@
   </main>
 
   <footer class="py-10 text-center text-sm text-gray-400 opacity-60">
-    <p>Designed by Niccolò Barbini</p>
+    <p class="text-xl font-light text-gray-500 dark:text-gray-500">
+			&copy; {new Date().getFullYear()} Niccolò Barbini. All rights reserved.</p>
   </footer>
 </div>
