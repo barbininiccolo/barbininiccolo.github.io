@@ -11,6 +11,7 @@
       <div class="flex gap-4">
         <a href="/" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors {$page.url.pathname === '/' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-600 dark:text-gray-300'}">Home</a>
         <a href="/cv" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors {$page.url.pathname === '/cv' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-600 dark:text-gray-300'}">CV</a>
+        <a href="/academia" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors {$page.url.pathname === '/academia' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-600 dark:text-gray-300'}">Academia</a>
         <a href="/blog" class="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors {$page.url.pathname === '/blog' ? 'text-blue-600 dark:text-blue-400' : 'text-gray-600 dark:text-gray-300'}">Blog</a>
       </div>
     </div>
