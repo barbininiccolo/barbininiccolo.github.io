@@ -12,7 +12,7 @@
 	<!-- Main Header -->
 	<div class="mb-16">
 		<h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-gray-900 dark:text-white">
-			Academic and Interests
+			Academic experience and Personal interests
 		</h1>
 		<p class="text-2xl text-gray-400 font-light">
 			Education, award, interests and languages.
