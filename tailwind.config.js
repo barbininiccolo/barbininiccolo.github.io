@@ -19,4 +19,7 @@ export default {
     themes: ["lofi", "black"], // lofi is super clean light mode
     darkTheme: "black",
   },
+   plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
