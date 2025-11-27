@@ -85,7 +85,7 @@
 					<time class="text-gray-400">2022 - 2023</time>
 				</div>
 				<p class="text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
-					Bestowed the British Computer Society Award as best student and best dissertation for Master Level (Level 7, UK National Qualifications Framework).
+					I received the British Computer Society Award as best student and best dissertation for Master Level (Level 7, UK National Qualifications Framework).
 				</p>
 			</li>
 		</ol>
