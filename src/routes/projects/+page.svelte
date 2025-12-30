@@ -1,25 +1,25 @@
 <script>
     const projects = [
         {
-          title: "Language learning for everyone",
-          link: "https://github.com/yourusername/project-repo",
+          title: "Language learning platform for everyone",
+          link: "https://github.com/barbininiccolo",
           role: "Lead Developer",
           date: "August 2025 - Present",
           // The "Why"
-          reason: "I noticed that many existing tools for X were too expensive or complex. I wanted to build something lightweight that I could use for my own daily workflows.",
+          reason: "I noticed that many existing tools for teaching a language were expensive, complex and too generic. I wanted to build something accessible to everyone. Education should be available for everyone.",
           // The "Mission"
-          mission: "To democratize access to X technology by providing an open-source, privacy-first alternative that anyone can self-host.",
+          mission: "To democratize access to Education and learning by providing an open-source, privacy-first alternative that anyone can self-host.",
           // The "Learnings"
-          learning: "I deepened my understanding of SvelteKit's server-side rendering and learned how to optimize PostgreSQL queries for high-traffic scenarios."
+          learning: "I deepened my understanding of SvelteKit's server-side rendering, learned how to optimize PostgreSQL queries for high-traffic scenarios and how to deploy in production Docker containers."
         },
         {
-          title: "MSc Dissertation",
-          link: "https://your-website.com",
+          title: "MSc Cyber Security Dissertation",
+          link: "https://github.com/barbininiccolo/MSc-Cyber-Security-Dissertation-NLP-and-Phishing-emails-detection",
           role: "Researcher and developer",
           date: "Autumn 2023",
-          reason: "I was curious about how Neural Networks process natural language and wanted to build a visualizer to see the weights changing in real-time.",
-          mission: "To create an educational tool that simplifies complex AI concepts for undergraduate students.",
-          learning: "This project taught me the importance of WebGL for performance when rendering thousands of data points, and improved my linear algebra skills."
+          reason: "This project was undertaken as part of the MSc Cyber Security programme, requiring focused research in a specialised area supported by a software implementation.",
+          mission: "To develop an algorithm for phishing email detection using Natural Language Processing (NLP) techniques.",
+          learning: "The project developed my postgraduate research skills and strengthened my proficiency in algorithm design and implementation using Python."
         }
     ];
 </script>
