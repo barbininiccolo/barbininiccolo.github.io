@@ -1,0 +1,9 @@
+services:
+  site:
+    build: .
+    ports:
+      - "3000:5173"  # <--- Essential: Maps localhost:3000 to container:5173
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.svelte-kit
