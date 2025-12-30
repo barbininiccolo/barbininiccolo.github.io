@@ -40,3 +40,8 @@ Thumbs.db
 
 # Docker (Local overrides)
 docker-compose.override.yml
+
+# Vite temporary files
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+*.mjs.map
