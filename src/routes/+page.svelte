@@ -20,7 +20,7 @@
     <!-- Block 1: Profile Picture (Square) -->
     <div class="aspect-square rounded-[3rem] overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm group relative">
       <img 
-        src="/your-photo.jpg" 
+        src="/images/nb.jpg" 
         alt="Niccolò Barbini" 
         class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700 ease-in-out scale-110 group-hover:scale-100"
       />
