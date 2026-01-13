@@ -57,9 +57,6 @@
 					<span class="text-gray-400">•</span>
 					<time class="text-gray-400">2015 - 2021</time>
 				</div>
-				<p class="text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
-					Graduated with 2:1. Focus on phishing detection in the realm of cyber security.
-				</p>
 			</li>
 		</ol>
 	</div>
