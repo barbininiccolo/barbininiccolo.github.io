@@ -1,18 +1,6 @@
 <script>
     const projects = [
         {
-          title: "Language learning platform for everyone",
-          link: "https://github.com/barbininiccolo",
-          role: "Lead Developer",
-          date: "August 2025 - Present",
-          // The "Why"
-          reason: "I noticed that many existing tools for teaching a language were expensive, complex and too generic. I wanted to build something accessible to everyone. Education should be available for everyone.",
-          // The "Mission"
-          mission: "To democratize access to Education and learning by providing an open-source, privacy-first alternative that anyone can self-host.",
-          // The "Learnings"
-          learning: "I deepened my understanding of SvelteKit's server-side rendering, learned how to optimize PostgreSQL queries for high-traffic scenarios and how to deploy in production Docker containers."
-        },
-        {
           title: "MSc Cyber Security Dissertation",
           link: "https://github.com/barbininiccolo/MSc-Cyber-Security-Dissertation-NLP-and-Phishing-emails-detection",
           role: "Researcher and developer",
