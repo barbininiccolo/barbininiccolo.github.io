@@ -4,7 +4,6 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    // Consult https://kit.svelte.dev/docs/integrations#preprocessors
     preprocess: [
         vitePreprocess(),
         mdsvex({
@@ -15,7 +14,6 @@ const config = {
     extensions: ['.svelte', '.md'],
 
     kit: {
-        // adapter-static allows GitHub Pages hosting
         adapter: adapter({
             pages: 'build',
             assets: 'build',
@@ -24,7 +22,7 @@ const config = {
             strict: true
         }),
         paths: {
-            base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+            base: ''
         }
     }
 };
