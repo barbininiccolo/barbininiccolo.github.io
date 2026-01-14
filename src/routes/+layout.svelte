@@ -2,6 +2,10 @@
   import "../app.css";
   import { page } from '$app/stores';
 
+  // Because SvelteKit is a dynamic framework, you must tell it to crawl your routes and turn them into static HTML files during the build process.
+  export const prerender = true;
+  export const trailingSlash = 'always';
+  
   // Logic for the Smart Reveal effect
   let y = 0;
   let lastY = 0;
