@@ -31,10 +31,10 @@
       <div class="relative z-10 flex flex-col h-full justify-between">
         <div>
           <div class="badge badge-lg badge-neutral mb-6">About</div>
-          <h2 class="text-3xl md:text-5xl font-bold mb-6 tracking-tight">System Design <br/> meets Intelligence.</h2>
+          <h2 class="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Engineering intelligent systems, <br/> end to end.</h2>
         </div>
         <p class="text-lg md:text-xl text-gray-500 leading-relaxed max-w-lg">
-          I don't just write code; I like to develop intelligent systems. From training custom AI models based on a specific goal to deploying Dockerized microservices, I am working to bridge the gap between complex AI research and production-grade software.
+          I don’t just write code; I enjoy building intelligent systems. From training custom AI models tailored to real-world goals to deploying Dockerised microservices, I focus on bringing AI research into practical, production-grade applications.
         </p>
       </div>
       <!-- Decorative Gradient -->
