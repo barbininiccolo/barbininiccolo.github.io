@@ -21,8 +21,16 @@ const config = {
             precompress: false,
             strict: true
         }),
+
+        alias: {
+            '$components': 'src/lib/components',
+            '$assets': 'src/lib/assets',
+            '$posts': 'src/lib/posts'
+        },
+
         paths: {
-            base: ''
+            // If your site is at username.github.io/repo-name, 
+            base: process.env.NODE_ENV === 'production' ? '' : '',
         }
     }
 };
