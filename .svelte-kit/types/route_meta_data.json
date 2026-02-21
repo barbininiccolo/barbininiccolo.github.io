@@ -1,0 +1,12 @@
+{
+	"/": [],
+	"/academia": [],
+	"/blog": [
+		"src/routes/blog/+page.ts"
+	],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.ts"
+	],
+	"/cv": [],
+	"/projects": []
+}
