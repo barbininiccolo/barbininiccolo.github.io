@@ -1,0 +1,27 @@
+# 1. Dependencies (Force clean install inside Docker)
+node_modules
+npm-debug.log
+
+# 2. Build Artifacts (Don't copy stale builds)
+build
+.svelte-kit
+
+# 3. Git Metadata (Huge and unnecessary for the app)
+.git
+.gitignore
+
+# 4. Environment config (Don't bake secrets into the image)
+.env
+.env.local
+
+# 5. Docker specific (Don't copy the build instructions into the image itself)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 6. OS Files
+.DS_Store
+
+# 7. Documentation (Optional: keep image small)
+README.md
+docs/

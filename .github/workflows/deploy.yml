@@ -1,0 +1,53 @@
+name: Deploy Portfolio
+
+on:
+  push:
+    branches: 'main'
+  # Allows you to manually trigger a redeploy from the GitHub Actions tab
+  workflow_dispatch: 
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Prevent multiple deployments from running at the same time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build_site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # This must match the 'pages' option in your svelte.config.js
+          path: 'build/' 
+
+  deploy:
+    needs: build_site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

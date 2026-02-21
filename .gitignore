@@ -1,0 +1,47 @@
+# Local references
+.github
+package-lock.json
+
+# Node / Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SvelteKit Build Artifacts
+.svelte-kit/
+build/
+.vercel/
+.netlify/
+
+# Environment Variables (Secrets)
+.env
+.env.*
+!.env.example
+
+# Python (Future proofing for your scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Docker (Local overrides)
+docker-compose.override.yml
+
+# Vite temporary files
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+*.mjs.map
