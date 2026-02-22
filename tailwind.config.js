@@ -14,12 +14,13 @@ export default {
       }
     },
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["lofi", "black"], // lofi is super clean light mode
-    darkTheme: "black",
-  },
-   plugins: [
+  // FIX: Combined plugins into one array
+  plugins: [
     require('@tailwindcss/typography'),
+    require("daisyui")
   ],
+  daisyui: {
+    themes: ["lofi", "black"], 
+    darkTheme: "black", // automatic dark mode
+  },
 }
