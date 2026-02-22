@@ -2,7 +2,7 @@
 
 # Niccolò Barbini
 ### **AI Software Engineer** 
-*Specializing in Intelligent Systems, Computer Vision, and Robust Software Infrastructure.*
+*Specialising in Intelligent Systems, Computer Vision, and Robust Software Infrastructure.*
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/n-barbini)
 [![Live Portfolio](https://img.shields.io/badge/View_Live_Portfolio-black?style=flat-square&logo=safari&logoColor=white)](https://github.com/barbininiccolo)
