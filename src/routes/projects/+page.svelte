@@ -15,7 +15,7 @@
 <div class="max-w-4xl mx-auto">
   <!-- Header -->
   <div class="mb-16">
-    <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Projects</h1>
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-gray-900 dark:text-white">Projects</h1>
     <p class="text-2xl text-gray-400 font-light">
       A collection of my work, the reasons behind them, and the lessons learned along the way.
     </p>
