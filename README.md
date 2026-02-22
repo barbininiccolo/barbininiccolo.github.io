@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/n-barbini)
 [![Live Portfolio](https://img.shields.io/badge/View_Live_Portfolio-black?style=flat-square&logo=safari&logoColor=white)](https://github.com/barbininiccolo)
-[![Location](https://img.shields.io/badge/Based_in-Cologne,_Germany-red?style=flat-square)
+[![Location](https://img.shields.io/badge/Based_in-Cologne,_Germany-DE4437?style=flat-square&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Cologne,+Germany)
 
 ---
 
