@@ -4,7 +4,7 @@
   <div class="py-10 md:py-20">
     <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[0.9] mb-8">
       Niccolò Barbini <br />
-      <span class="opacity-60">AI software engineer</span>
+      <span class="text-gray-300 dark:text-gray-700">AI software engineer</span>
     </h1>
     <p class="text-2xl md:text-3xl opacity-70 max-w-4xl leading-relaxed font-light">
       I build scalable full-stack platforms. <br class="hidden md:block" />
