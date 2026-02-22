@@ -45,7 +45,6 @@ I don't just write code; I ensure it stays running. I use industry-standard tool
 *   **Frontend:** SvelteKit & TypeScript.
 *   **Styling:** Tailwind CSS & DaisyUI.
 *   **Deployment:** GitHub Actions & Pages (for automated, 24/7 global availability).
-
 ---
 
 ## 📫 Let's Connect
