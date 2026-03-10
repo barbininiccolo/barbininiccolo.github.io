@@ -1,6 +1,8 @@
 # Local references
-.github
 package-lock.json
+
+# Test results
+test-results/
 
 # Node / Dependencies
 node_modules/
