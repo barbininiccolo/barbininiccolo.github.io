@@ -4,13 +4,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* UI Base settings */
-body {
-  font-family: 'Inter', sans-serif;
-  @apply bg-gray-50 text-gray-900 antialiased selection:bg-gray-900 selection:text-white;
+html {
+  scroll-behavior: smooth;
 }
 
-/* Dark mode overrides (handled by DaisyUI automatically, but we refine here) */
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50 text-gray-900 antialiased selection:bg-blue-500/30 selection:text-blue-900 dark:selection:text-blue-200;
+  overflow-x: hidden;
+}
+
 :global(.dark) body {
-  @apply bg-black text-gray-100;
+  @apply bg-[#050505] text-gray-100; /* Darker, richer black than standard */
+}
+
+/* Hide scrollbar for cleaner look on bento boxes if they overflow */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
