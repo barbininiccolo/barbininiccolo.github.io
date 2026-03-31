@@ -26,10 +26,10 @@ test.describe('Layout & Navigation', () => {
 		
 		await cvLink.click();
 		await expect(page).toHaveURL(/.*\/cv/);
-		await expect(cvLink).toHaveClass(/.*text-blue-600.*/);
+		await expect(cvLink).toHaveClass(/.*text-black.*/);
 		
 		const homeLink = navbar.getByRole('link', { name: 'Home', exact: true });
-		await expect(homeLink).toHaveClass(/.*text-gray-600.*/);
+		await expect(homeLink).toHaveClass(/.*text-gray-500.*/);
 	});
 
 	test('navbar hides when scrolling down and reappears when scrolling up', async ({ page }) => {
