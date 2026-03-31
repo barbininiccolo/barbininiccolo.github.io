@@ -250,33 +250,36 @@
 <!-- UNIVERSITY OF GLOUCESTERSHIRE - NLP RESEARCH SECTION -->
 <section class="max-w-[1400px] mx-auto px-6 py-32 flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
   
-  <!-- Left Side: Advanced NLP "Semantic Scanner" Visual -->
+<!-- Left Side: Advanced NLP "Semantic Scanner" Visual -->
   <div class="flex-1 w-full aspect-[4/5] lg:aspect-square relative order-2 lg:order-1" use:reveal>
     <!-- Premium Dark Glass Canvas -->
-    <div class="absolute inset-0 bg-[#050507] dark:bg-[#050507] rounded-[3rem] border border-white/10 overflow-hidden shadow-2xl" use:tilt>
+    <div class="absolute inset-0 bg-[#050507] rounded-[3rem] border border-white/10 overflow-hidden shadow-2xl" use:tilt>
         
       <!-- Micro-Grid Background -->
-      <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:16px_16px]"></div>
+      <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_100%_100%_at_50%_50%,black_45%,transparent_100%)]"></div>
 
       <!-- Deep Ambient NLP Glow (Emerald to Teal) -->
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,#10b98130_0%,#0d948810_40%,transparent_70%)] blur-[80px] rounded-full"></div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="w-4/5 h-4/5 bg-[radial-gradient(circle_at_center,#10b98135_0%,#0d948810_50%,transparent_80%)] blur-[100px] rounded-full"></div>
+      </div>
 
-      <!-- Advanced NLP Architecture SVG -->
-      <div class="relative w-full h-full flex items-center justify-center p-2 lg:p-6">
-        <svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" class="w-full h-full max-w-[600px]">
+      <!-- Scaled & Balanced Hero Graphic -->
+      <div class="absolute inset-0 flex items-center justify-center p-6 md:p-10 lg:p-14">
+        <!-- Re-framed for UI Harmony with the Autoencoder section -->
+        <svg viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg" class="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(16,185,129,0.15)]">
           <defs>
             <linearGradient id="nlpFlow" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stop-color="#10b981" stop-opacity="0.1" />
-              <stop offset="50%" stop-color="#34d399" stop-opacity="0.8" />
+              <stop offset="50%" stop-color="#34d399" stop-opacity="0.9" />
               <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.1" />
             </linearGradient>
             <linearGradient id="threatFlow" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.8" />
+              <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.9" />
               <stop offset="100%" stop-color="#fb923c" stop-opacity="0.1" />
             </linearGradient>
             <filter id="emeraldGlow" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="3" result="blur1" />
-              <feGaussianBlur stdDeviation="8" result="blur2" />
+              <feGaussianBlur stdDeviation="4" result="blur1" />
+              <feGaussianBlur stdDeviation="10" result="blur2" />
               <feMerge>
                 <feMergeNode in="blur2" />
                 <feMergeNode in="blur1" />
@@ -285,173 +288,119 @@
             </filter>
           </defs>
 
-          <!-- Layer Identifiers -->
-          <g class="font-mono text-[9px] uppercase tracking-[0.3em] fill-neutral-500" opacity="0.6">
-            <text x="80" y="60" text-anchor="middle">Input Text</text>
-            <text x="250" y="60" text-anchor="middle">Tokenization</text>
-            <text x="450" y="60" text-anchor="middle" class="fill-emerald-400">Semantic Comparator</text>
-            <text x="620" y="60" text-anchor="middle">Classification</text>
+          <!-- Layer Identifiers (Harmonized with Autoencoder Section) -->
+          <g font-family="monospace" font-size="20" font-weight="bold" text-transform="uppercase" letter-spacing="2" fill="#e5e7eb">
+            <text x="80" y="50" text-anchor="middle">Input Text</text>
+            <text x="250" y="50" text-anchor="middle">Tokenization</text>
+            <text x="450" y="50" text-anchor="middle" fill="#34d399" font-size="22">Comparator</text>
+            <text x="620" y="50" text-anchor="middle">Decision</text>
           </g>
 
           <!-- RAW TEXT SCANNER (Left Side) -->
-          <!-- Represents the email being read and keywords being extracted -->
           <g transform="translate(40, 150)">
-            <rect x="0" y="0" width="80" height="6" rx="3" fill="#ffffff" opacity="0.1" />
-            <rect x="0" y="20" width="60" height="6" rx="3" fill="#ffffff" opacity="0.1" />
-            <rect x="0" y="40" width="90" height="6" rx="3" fill="#ffffff" opacity="0.1" />
+            <rect x="0" y="0" width="80" height="6" rx="3" fill="#ffffff" opacity="0.15" />
+            <rect x="0" y="24" width="60" height="6" rx="3" fill="#ffffff" opacity="0.15" />
+            <rect x="0" y="48" width="90" height="6" rx="3" fill="#ffffff" opacity="0.15" />
             
-            <rect x="0" y="80" width="70" height="6" rx="3" fill="#ffffff" opacity="0.1" />
-            <rect x="0" y="100" width="85" height="6" rx="3" fill="#10b981" opacity="0.4" /> <!-- Keyword -->
-            <rect x="0" y="120" width="50" height="6" rx="3" fill="#ffffff" opacity="0.1" />
+            <rect x="0" y="96" width="70" height="6" rx="3" fill="#ffffff" opacity="0.15" />
+            <rect x="0" y="120" width="85" height="6" rx="3" fill="#10b981" opacity="0.5" /> 
+            <rect x="0" y="144" width="50" height="6" rx="3" fill="#ffffff" opacity="0.15" />
             
-            <rect x="0" y="160" width="95" height="6" rx="3" fill="#f43f5e" opacity="0.4" /> <!-- Suspect Keyword -->
-            <rect x="0" y="180" width="65" height="6" rx="3" fill="#ffffff" opacity="0.1" />
-            <rect x="0" y="200" width="80" height="6" rx="3" fill="#ffffff" opacity="0.1" />
+            <rect x="0" y="192" width="95" height="6" rx="3" fill="#f43f5e" opacity="0.5" /> 
+            <rect x="0" y="216" width="65" height="6" rx="3" fill="#ffffff" opacity="0.15" />
+            <rect x="0" y="240" width="80" height="6" rx="3" fill="#ffffff" opacity="0.15" />
 
             <!-- Scanning Laser -->
             <rect x="-10" y="0" width="110" height="2" fill="#34d399" filter="url(#emeraldGlow)">
-              <animate attributeName="y" values="0;220;0" dur="4s" repeatCount="indefinite" />
+              <animate attributeName="y" values="0;250;0" dur="4s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- NLP SELF-ATTENTION CURVES (Tokenization to Semantic Embeddings) -->
-          <g fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.5">
-            <!-- Safe Paths -->
+          <!-- BASE NLP PATHS (Refined Weights) -->
+          <g fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5">
             <path d="M140,250 C190,250 190,200 250,200 M250,200 C310,200 310,250 450,250" />
             <path d="M140,250 C190,250 190,300 250,300 M250,300 C310,300 310,250 450,250" />
-            <!-- Threat Paths -->
             <path d="M140,310 C190,310 190,350 250,350 M250,350 C350,350 350,400 450,400" />
           </g>
 
           <!-- ACTIVE SEMANTIC DATA FLOW -->
-          <g fill="none" stroke="url(#nlpFlow)" stroke-width="2" stroke-dasharray="6 12" stroke-linecap="round">
-            <animate attributeName="stroke-dashoffset" from="36" to="0" dur="1.2s" repeatCount="indefinite" />
+          <g fill="none" stroke="url(#nlpFlow)" stroke-width="2.5" stroke-dasharray="10 20" stroke-linecap="round">
+            <animate attributeName="stroke-dashoffset" from="60" to="0" dur="1.2s" repeatCount="indefinite" />
             <path d="M140,250 C190,250 190,200 250,200 C310,200 310,250 450,250" />
-            <path d="M140,250 C190,250 190,300 250,300 C310,300 310,250 450,250" opacity="0.5" />
           </g>
           
-          <!-- THREAT DETECTION FLOW (Phishing keyword being analyzed) -->
-          <g fill="none" stroke="url(#threatFlow)" stroke-width="2.5" stroke-dasharray="8 16" stroke-linecap="round" filter="url(#emeraldGlow)">
-            <animate attributeName="stroke-dashoffset" from="48" to="0" dur="1s" repeatCount="indefinite" />
+          <!-- THREAT DETECTION FLOW (Rose/Red) -->
+          <g fill="none" stroke="url(#threatFlow)" stroke-width="3" stroke-dasharray="12 24" stroke-linecap="round" filter="url(#emeraldGlow)">
+            <animate attributeName="stroke-dashoffset" from="72" to="0" dur="1s" repeatCount="indefinite" />
             <path d="M140,310 C190,310 190,350 250,350 C350,350 350,400 450,400" />
           </g>
 
-          <!-- MOVING DATA PACKETS (Keywords) -->
+          <!-- MOVING DATA PACKETS -->
           <g filter="url(#emeraldGlow)">
-            <!-- Safe keywords -->
-            <circle r="3" fill="#34d399">
+            <circle r="4" fill="#34d399">
               <animateMotion dur="2.3s" repeatCount="indefinite" path="M140,250 C190,250 190,200 250,200 C310,200 310,250 450,250" />
             </circle>
-            <circle r="2.5" fill="#0ea5e9">
-              <animateMotion dur="2.7s" begin="0.5s" repeatCount="indefinite" path="M140,250 C190,250 190,300 250,300 C310,300 310,250 450,250" />
-            </circle>
-            <!-- Phishing keyword being flagged -->
-            <circle r="4" fill="#f43f5e">
+            <circle r="5" fill="#f43f5e">
               <animateMotion dur="1.8s" begin="0.2s" repeatCount="indefinite" path="M140,310 C190,310 190,350 250,350 C350,350 350,400 450,400" />
             </circle>
           </g>
 
-          <!-- SIMILARITY COMPARATOR TO OUTPUT CLASSIFIER -->
-          <g fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2">
-            <path d="M450,250 C530,250 530,200 620,200" /> <!-- Route to Genuine -->
-            <path d="M450,400 C530,400 530,450 620,450" /> <!-- Route to Phishing -->
+          <!-- FINAL DECISION PATHS -->
+          <g fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2">
+            <path d="M450,250 C530,250 530,200 620,200" /> 
+            <path d="M450,400 C530,400 530,450 620,450" /> 
           </g>
 
-          <g filter="url(#emeraldGlow)">
-            <!-- Final Decision Pulse (Threat Detected) -->
-            <circle r="3.5" fill="#f43f5e">
-              <animateMotion dur="1.5s" begin="1s" repeatCount="indefinite" path="M450,400 C530,400 530,450 620,450" />
-            </circle>
-          </g>
-
-          <!-- UI NODES -->
+          <!-- HARMONIZED NODES -->
           <g>
-            <!-- Extraction Nodes -->
-            <circle cx="140" cy="250" r="6" fill="#050507" stroke="#10b981" stroke-width="2" />
-            <circle cx="140" cy="310" r="6" fill="#050507" stroke="#f43f5e" stroke-width="2" />
+            <circle cx="140" cy="250" r="10" fill="#050507" stroke="#10b981" stroke-width="2.5" />
+            <circle cx="140" cy="310" r="10" fill="#050507" stroke="#f43f5e" stroke-width="2.5" />
 
-            <!-- Tokenization Matrix -->
-            <circle cx="250" cy="200" r="12" fill="#050507" stroke="#34d399" stroke-width="2" />
-            <circle cx="250" cy="200" r="3" fill="#fff" />
-            <circle cx="250" cy="300" r="12" fill="#050507" stroke="#0ea5e9" stroke-width="2" />
-            <circle cx="250" cy="300" r="3" fill="#fff" />
-            <circle cx="250" cy="350" r="12" fill="#1e1b4b" stroke="#f43f5e" stroke-width="2" filter="url(#emeraldGlow)" />
-            <circle cx="250" cy="350" r="3" fill="#fff" />
+            <circle cx="250" cy="200" r="15" fill="#050507" stroke="#34d399" stroke-width="3" />
+            <circle cx="250" cy="300" r="15" fill="#050507" stroke="#0ea5e9" stroke-width="3" />
+            <circle cx="250" cy="350" r="15" fill="#1e1b4b" stroke="#f43f5e" stroke-width="3" filter="url(#emeraldGlow)" />
 
-            <!-- Semantic Comparator Core (Cosine Similarity) -->
+            <!-- Comparator Cores -->
             <g transform="translate(450, 250)">
-              <circle r="18" fill="#050507" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4">
+              <circle r="22" fill="#050507" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4">
                 <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" />
               </circle>
-              <circle r="6" fill="#34d399" filter="url(#emeraldGlow)" />
+              <circle r="7" fill="#34d399" filter="url(#emeraldGlow)" />
             </g>
-            
             <g transform="translate(450, 400)">
-              <circle r="18" fill="#050507" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4 4">
+              <circle r="22" fill="#050507" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4 4">
                 <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite" />
               </circle>
-              <circle r="6" fill="#f43f5e" filter="url(#emeraldGlow)" class="animate-pulse" />
+              <circle r="7" fill="#f43f5e" filter="url(#emeraldGlow)" class="animate-pulse" />
             </g>
 
-            <!-- Classification Output Nodes -->
-            <!-- Genuine Node -->
+            <!-- Classification Badges -->
             <g transform="translate(620, 200)">
-              <rect x="-40" y="-12" width="80" height="24" rx="12" fill="#10b981" opacity="0.1" />
-              <rect x="-40" y="-12" width="80" height="24" rx="12" fill="none" stroke="#10b981" stroke-width="1" />
-              <circle cx="-25" cy="0" r="4" fill="#34d399" />
+              <rect x="-45" y="-14" width="90" height="28" rx="14" fill="#10b981" opacity="0.15" />
+              <rect x="-45" y="-14" width="90" height="28" rx="14" fill="none" stroke="#10b981" stroke-width="2" />
+              <circle cx="-30" cy="0" r="5" fill="#34d399" />
             </g>
-            
-            <!-- Phishing Node (Triggered) -->
             <g transform="translate(620, 450)">
-              <rect x="-45" y="-12" width="90" height="24" rx="12" fill="#f43f5e" opacity="0.2" filter="url(#emeraldGlow)"/>
-              <rect x="-45" y="-12" width="90" height="24" rx="12" fill="none" stroke="#f43f5e" stroke-width="1.5" />
-              <circle cx="-30" cy="0" r="4" fill="#fff" class="animate-ping" />
-              <circle cx="-30" cy="0" r="4" fill="#fff" />
+              <rect x="-45" y="-14" width="90" height="28" rx="14" fill="#f43f5e" opacity="0.25" filter="url(#emeraldGlow)"/>
+              <rect x="-45" y="-14" width="90" height="28" rx="14" fill="none" stroke="#f43f5e" stroke-width="2.5" />
+              <circle cx="-30" cy="0" r="5" fill="#fff" class="animate-ping" />
+              <circle cx="-30" cy="0" r="5" fill="#fff" />
             </g>
           </g>
         </svg>
       </div>
 
-      <!-- Top Status Pills -->
-      <div class="absolute top-6 left-6 flex flex-col gap-2">
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
-          <span class="relative flex h-2 w-2">
+      <!-- Consistent Status Pill -->
+      <div class="absolute top-6 lg:top-8 left-6 lg:left-8 z-10">
+        <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-[#050507]/60 border border-white/10 backdrop-blur-xl shadow-xl">
+          <span class="relative flex h-3 w-3">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
           </span>
-          <span class="text-[10px] font-medium text-neutral-300 tracking-wide uppercase">NLP Engine Active</span>
+          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">NLP Engine Active</span>
         </div>
       </div>
 
-      <!-- Live AI Diagnostics Dashboard Overlay -->
-      <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 backdrop-blur-xl bg-black/50 border border-white/10 p-5 rounded-2xl shadow-[0_0_40px_rgba(0,0,0,0.5)]">
-        
-        <!-- Architecture Readout -->
-        <div class="flex flex-col gap-1.5">
-           <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-emerald-400 flex items-center gap-2">
-             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-             Current Task
-           </span>
-           <span class="text-xs font-mono tracking-wider text-white">Semantic Phishing Analysis</span>
-        </div>
-
-        <!-- Live Metrics Grid -->
-        <div class="grid grid-cols-2 sm:flex gap-6 sm:gap-8">
-          <div class="flex flex-col gap-1.5 sm:text-right">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Extracted</span>
-            <span class="text-xs font-mono tracking-wider text-white">128 Keywords</span>
-          </div>
-          <div class="flex flex-col gap-1.5 sm:text-right">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Cosine Sim.</span>
-            <span class="text-xs font-mono tracking-wider text-teal-300">0.94 Match</span>
-          </div>
-          <div class="flex flex-col gap-1.5 sm:text-right col-span-2 sm:col-span-1">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Classification</span>
-            <span class="text-xs font-mono tracking-wider text-rose-400 font-bold animate-pulse">THREAT DETECTED</span>
-          </div>
-        </div>
-
-      </div>
     </div>
   </div>
 
