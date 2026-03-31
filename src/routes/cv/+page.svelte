@@ -73,10 +73,10 @@
       <div class="group opacity-60 hover:opacity-100 transition-opacity duration-500">
         <h3 class="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-4 flex items-center gap-3">
           <span class="w-8 h-[1px] bg-neutral-400"></span>
-          Cyber Security Consulting
+          Cybersecurity Consultant
         </h3>
         <p class="text-xl md:text-2xl font-light leading-snug">
-          Acted as network security consultant: authored policies and wrote incident reports.
+          Formulating security policies.
         </p>
       </div>
     </div>
@@ -122,10 +122,10 @@
           </defs>
 
           <!-- Layer Identifiers (Moved upward to y=20) -->
-          <g font-family="monospace" font-size="20" font-weight="bold" text-transform="uppercase" letter-spacing="2" fill="#e5e7eb">
+          <g font-family="monospace" font-size="18" font-weight="bold" text-transform="uppercase" letter-spacing="2" fill="#e5e7eb">
             <text x="50" y="20" text-anchor="middle">Input</text>
             <text x="200" y="20" text-anchor="middle">Encoder</text>
-            <text x="350" y="20" text-anchor="middle" fill="#60a5fa" font-size="22">Latent Core</text>
+            <text x="350" y="20" text-anchor="middle" fill="#60a5fa" font-size="20">Latent Space</text>
             <text x="500" y="20" text-anchor="middle">Decoder</text>
             <text x="650" y="20" text-anchor="middle">Output</text>
           </g>
@@ -238,7 +238,7 @@
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
           </span>
-          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">Active Training</span>
+          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">Neural Net</span>
         </div>
       </div>
 
@@ -397,7 +397,7 @@
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
           </span>
-          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">NLP Engine Active</span>
+          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">NLP Engine</span>
         </div>
       </div>
 
