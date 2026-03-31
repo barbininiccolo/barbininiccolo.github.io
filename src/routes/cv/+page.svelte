@@ -81,35 +81,38 @@
       </div>
     </div>
   </div>
+ 
 <!-- Right Side: Advanced "Deep Autoencoder" Visual -->
   <div class="flex-1 w-full aspect-[4/5] lg:aspect-square relative order-1 lg:order-2" use:reveal>
     <!-- Premium Dark Glass Canvas -->
-    <div class="absolute inset-0 bg-[#050507] dark:bg-[#050507] rounded-[3rem] border border-white/10 overflow-hidden shadow-2xl" use:tilt>
+    <div class="absolute inset-0 bg-[#050507] rounded-[3rem] border border-white/10 overflow-hidden shadow-2xl" use:tilt>
         
       <!-- Micro-Grid Background -->
-      <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_100%_100%_at_50%_50%,black_40%,transparent_100%)]"></div>
+      <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_100%_100%_at_50%_50%,black_45%,transparent_100%)]"></div>
 
       <!-- Deep Ambient Latent Glow -->
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,#3b82f630_0%,#6366f110_40%,transparent_70%)] blur-[80px] rounded-full"></div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="w-4/5 h-4/5 bg-[radial-gradient(circle_at_center,#3b82f640_0%,#6366f115_50%,transparent_80%)] blur-[100px] rounded-full"></div>
+      </div>
 
-      <!-- Advanced Neural Architecture SVG -->
-      <div class="relative w-full h-full flex items-center justify-center p-2 lg:p-6">
-        <svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" class="w-full h-full max-w-[600px]">
+      <!-- Scaled & Perfectly Spaced Hero Graphic -->
+      <div class="absolute inset-0 flex items-center justify-center p-4 md:p-8">
+        <!-- Shifted viewBox slightly (y=-20) to accommodate the higher text -->
+        <svg viewBox="0 -20 700 520" xmlns="http://www.w3.org/2000/svg" class="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(59,130,246,0.15)]">
           <defs>
-            <!-- High-Tech Gradients -->
             <linearGradient id="forwardFlow" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1" />
-              <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8" />
+              <stop offset="50%" stop-color="#818cf8" stop-opacity="0.9" />
               <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1" />
             </linearGradient>
             <linearGradient id="skipConnection" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0" />
-              <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.6" />
+              <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.7" />
               <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
             </linearGradient>
             <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
-              <feGaussianBlur stdDeviation="3" result="blur1" />
-              <feGaussianBlur stdDeviation="8" result="blur2" />
+              <feGaussianBlur stdDeviation="4" result="blur1" />
+              <feGaussianBlur stdDeviation="10" result="blur2" />
               <feMerge>
                 <feMergeNode in="blur2" />
                 <feMergeNode in="blur1" />
@@ -118,182 +121,130 @@
             </filter>
           </defs>
 
-          <!-- Layer Identifiers (Engineering UI) -->
-          <g class="font-mono text-[9px] uppercase tracking-[0.3em] fill-neutral-500" opacity="0.6">
-            <text x="50" y="60" text-anchor="middle">Input</text>
-            <text x="200" y="60" text-anchor="middle">Encoder</text>
-            <text x="350" y="60" text-anchor="middle" class="fill-blue-400">Latent Space</text>
-            <text x="500" y="60" text-anchor="middle">Decoder</text>
-            <text x="650" y="60" text-anchor="middle">Output</text>
+          <!-- Layer Identifiers (Moved upward to y=20) -->
+          <g font-family="monospace" font-size="20" font-weight="bold" text-transform="uppercase" letter-spacing="2" fill="#e5e7eb">
+            <text x="50" y="20" text-anchor="middle">Input</text>
+            <text x="200" y="20" text-anchor="middle">Encoder</text>
+            <text x="350" y="20" text-anchor="middle" fill="#60a5fa" font-size="22">Latent Core</text>
+            <text x="500" y="20" text-anchor="middle">Decoder</text>
+            <text x="650" y="20" text-anchor="middle">Output</text>
           </g>
 
           <!-- RESIDUAL (SKIP) CONNECTIONS -->
-          <!-- Sweeping arcs that bypass the center, crucial in modern Deep Learning (ResNets/Transformers) -->
-          <g fill="none" stroke="url(#skipConnection)" stroke-width="1.5" stroke-dasharray="6 6">
-            <path d="M 200,150 C 350,20 350,20 500,150">
-              <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite" />
-            </path>
-            <path d="M 200,450 C 350,580 350,580 500,450">
-              <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite" />
-            </path>
+          <g fill="none" stroke="url(#skipConnection)" stroke-width="2.5" stroke-dasharray="8 8">
+            <path d="M 200,150 C 350,20 350,20 500,150"><animate attributeName="stroke-dashoffset" from="32" to="0" dur="1s" repeatCount="indefinite" /></path>
+            <path d="M 200,450 C 350,580 350,580 500,450"><animate attributeName="stroke-dashoffset" from="32" to="0" dur="1s" repeatCount="indefinite" /></path>
           </g>
 
-          <!-- BASE SYNAPSES (Dense Mesh Background) -->
-          <g fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
-            <!-- Input to Encoder (5x4) -->
+          <!-- VISIBLE OUTER SYNAPSES (Input -> Encoder) -->
+          <g fill="none" stroke="#3b82f6" stroke-opacity="0.35" stroke-width="2">
             <path d="M50,150 C125,150 125,150 200,150 M50,150 C125,150 125,250 200,250 M50,150 C125,150 125,350 200,350 M50,150 C125,150 125,450 200,450" />
             <path d="M50,225 C125,225 125,150 200,150 M50,225 C125,225 125,250 200,250 M50,225 C125,225 125,350 200,350 M50,225 C125,225 125,450 200,450" />
             <path d="M50,300 C125,300 125,150 200,150 M50,300 C125,300 125,250 200,250 M50,300 C125,300 125,350 200,350 M50,300 C125,300 125,450 200,450" />
             <path d="M50,375 C125,375 125,150 200,150 M50,375 C125,375 125,250 200,250 M50,375 C125,375 125,350 200,350 M50,375 C125,375 125,450 200,450" />
             <path d="M50,450 C125,450 125,150 200,150 M50,450 C125,450 125,250 200,250 M50,450 C125,450 125,350 200,350 M50,450 C125,450 125,450 200,450" />
-            
-            <!-- Decoder to Output (4x5) -->
+          </g>
+
+          <!-- VISIBLE OUTER SYNAPSES (Decoder -> Output) -->
+          <g fill="none" stroke="#a855f7" stroke-opacity="0.35" stroke-width="2">
             <path d="M500,150 C575,150 575,150 650,150 M500,150 C575,150 575,225 650,225 M500,150 C575,150 575,300 650,300 M500,150 C575,150 575,375 650,375 M500,150 C575,150 575,450 650,450" />
             <path d="M500,250 C575,250 575,150 650,150 M500,250 C575,250 575,225 650,225 M500,250 C575,250 575,300 650,300 M500,250 C575,250 575,375 650,375 M500,250 C575,250 575,450 650,450" />
             <path d="M500,350 C575,350 575,150 650,150 M500,350 C575,350 575,225 650,225 M500,350 C575,350 575,300 650,300 M500,350 C575,350 575,375 650,375 M500,350 C575,350 575,450 650,450" />
             <path d="M500,450 C575,450 575,150 650,150 M500,450 C575,450 575,225 650,225 M500,450 C575,450 575,300 650,300 M500,450 C575,450 575,375 650,375 M500,450 C575,450 575,450 650,450" />
           </g>
 
-          <!-- ACTIVE FIBER OPTIC DATA FLOW (Continuous Forward Pass) -->
-          <g fill="none" stroke="url(#forwardFlow)" stroke-width="2" stroke-dasharray="8 16" stroke-linecap="round">
-            <animate attributeName="stroke-dashoffset" from="48" to="0" dur="1.5s" repeatCount="indefinite" />
-            
-            <!-- Compressing into Latent Space -->
+          <!-- ACTIVE FORWARD FLOW (Thickened Core Flow) -->
+          <g fill="none" stroke="url(#forwardFlow)" stroke-width="3.5" stroke-dasharray="12 24" stroke-linecap="round">
+            <animate attributeName="stroke-dashoffset" from="72" to="0" dur="1.5s" repeatCount="indefinite" />
             <path d="M200,150 C275,150 275,300 350,300" opacity="0.8" />
             <path d="M200,250 C275,250 275,280 350,300" opacity="0.6" />
             <path d="M200,350 C275,350 275,320 350,300" opacity="0.9" />
             <path d="M200,450 C275,450 275,300 350,300" opacity="0.7" />
-
-            <!-- Expanding from Latent Space -->
             <path d="M350,300 C425,300 425,150 500,150" opacity="0.8" />
             <path d="M350,300 C425,300 425,250 500,250" opacity="0.6" />
             <path d="M350,300 C425,300 425,350 500,350" opacity="0.9" />
             <path d="M350,300 C425,300 425,450 500,450" opacity="0.7" />
           </g>
 
-          <!-- BACKPROPAGATION GRADIENT PULSES (Rose Color - Right to Left) -->
+          <!-- OUTER DATA PULSES (To show activity on the edges) -->
           <g filter="url(#neonGlow)">
-            <circle r="2.5" fill="#f43f5e">
-              <animateMotion dur="2.1s" begin="0s" repeatCount="indefinite" path="M650,225 C575,225 575,250 500,250" />
-            </circle>
-            <circle r="3" fill="#fb923c">
-              <animateMotion dur="1.8s" begin="-0.5s" repeatCount="indefinite" path="M500,350 C425,350 425,300 350,300" />
-            </circle>
-            <circle r="2.5" fill="#f43f5e">
-              <animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite" path="M350,300 C275,300 275,250 200,250" />
-            </circle>
-            <circle r="2" fill="#fb923c">
-              <animateMotion dur="1.9s" begin="-0.8s" repeatCount="indefinite" path="M200,150 C125,150 125,225 50,225" />
-            </circle>
+            <!-- Input to Encoder Pulses -->
+            <circle r="4" fill="#60a5fa"><animateMotion dur="1.2s" begin="0.1s" repeatCount="indefinite" path="M50,225 C125,225 125,150 200,150" /></circle>
+            <circle r="3" fill="#3b82f6"><animateMotion dur="1.5s" begin="0.4s" repeatCount="indefinite" path="M50,375 C125,375 125,350 200,350" /></circle>
+            <!-- Decoder to Output Pulses -->
+            <circle r="4" fill="#c084fc"><animateMotion dur="1.3s" begin="0.2s" repeatCount="indefinite" path="M500,250 C575,250 575,300 650,300" /></circle>
+            <circle r="3" fill="#a855f7"><animateMotion dur="1.4s" begin="0.5s" repeatCount="indefinite" path="M500,450 C575,450 575,450 650,450" /></circle>
           </g>
 
-          <!-- THE LATENT SPACE CORE (Highly Complex Central Hub) -->
-          <g transform="translate(350, 300)">
-            <!-- Outer containment field -->
-            <circle r="45" fill="none" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4 8" opacity="0.4">
-              <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
-            </circle>
-            
-            <!-- Multi-dimensional geometric structure -->
-            <path d="M0,-30 L26,-15 L26,15 L0,30 L-26,15 L-26,-15 Z" fill="none" stroke="#818cf8" stroke-width="1.5" opacity="0.6">
-               <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite" />
-            </path>
-            <path d="M0,-20 L17,-10 L17,10 L0,20 L-17,10 L-17,-10 Z" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.8">
-               <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" />
-            </path>
-
-            <!-- Dense Vector Embeddings (Inner points) -->
-            <circle cx="-10" cy="-10" r="1.5" fill="#fff" class="animate-pulse" />
-            <circle cx="12" cy="-5" r="2" fill="#fff" class="animate-ping" />
-            <circle cx="-5" cy="15" r="1.5" fill="#fff" />
-            <circle cx="10" cy="10" r="1.5" fill="#fff" class="animate-pulse" />
-
-            <!-- Bright Center Core -->
-            <circle r="8" fill="#ffffff" filter="url(#neonGlow)" />
-            <circle r="16" fill="#6366f1" opacity="0.3" filter="url(#neonGlow)" class="animate-pulse" />
+          <!-- BACKPROPAGATION GRADIENTS -->
+          <g filter="url(#neonGlow)">
+            <circle r="4" fill="#f43f5e"><animateMotion dur="2.1s" begin="0s" repeatCount="indefinite" path="M650,225 C575,225 575,250 500,250" /></circle>
+            <circle r="5" fill="#fb923c"><animateMotion dur="1.8s" begin="-0.5s" repeatCount="indefinite" path="M500,350 C425,350 425,300 350,300" /></circle>
+            <circle r="4" fill="#f43f5e"><animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite" path="M350,300 C275,300 275,250 200,250" /></circle>
+            <circle r="3.5" fill="#fb923c"><animateMotion dur="1.9s" begin="-0.8s" repeatCount="indefinite" path="M200,150 C125,150 125,225 50,225" /></circle>
           </g>
 
-          <!-- NEURAL NODES (Clean UI Component Style) -->
+          <!-- THE LATENT SPACE CORE (Scaled up by 30% via transform) -->
+          <g transform="translate(350, 300) scale(1.3)">
+            <circle r="45" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.5"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" /></circle>
+            <path d="M0,-30 L26,-15 L26,15 L0,30 L-26,15 L-26,-15 Z" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.7"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite" /></path>
+            <path d="M0,-20 L17,-10 L17,10 L0,20 L-17,10 L-17,-10 Z" fill="none" stroke="#c084fc" stroke-width="2.5" opacity="0.9"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" /></path>
+            <!-- Thicker Inner Points -->
+            <circle cx="-10" cy="-10" r="2.5" fill="#fff" class="animate-pulse" />
+            <circle cx="12" cy="-5" r="3" fill="#fff" class="animate-ping" />
+            <circle cx="-5" cy="15" r="2.5" fill="#fff" />
+            <circle cx="10" cy="10" r="2.5" fill="#fff" class="animate-pulse" />
+            <!-- Thicker Bright Core -->
+            <circle r="10" fill="#ffffff" filter="url(#neonGlow)" />
+            <circle r="20" fill="#6366f1" opacity="0.4" filter="url(#neonGlow)" class="animate-pulse" />
+          </g>
+
+          <!-- NEURAL NODES (Scaled up massively) -->
           <g>
-            <!-- 1. Input Layer (5 Nodes) -->
-            <g fill="#050507" stroke="#3b82f6" stroke-width="2">
-              <circle cx="50" cy="150" r="8" /><circle cx="50" cy="150" r="2" fill="#fff" stroke="none" />
-              <circle cx="50" cy="225" r="8" /><circle cx="50" cy="225" r="2" fill="#fff" stroke="none" />
-              <circle cx="50" cy="300" r="8" /><circle cx="50" cy="300" r="2" fill="#fff" stroke="none" class="animate-pulse" />
-              <circle cx="50" cy="375" r="8" /><circle cx="50" cy="375" r="2" fill="#fff" stroke="none" />
-              <circle cx="50" cy="450" r="8" /><circle cx="50" cy="450" r="2" fill="#fff" stroke="none" />
+            <g fill="#050507" stroke="#3b82f6" stroke-width="2.5">
+              <circle cx="50" cy="150" r="12" /><circle cx="50" cy="150" r="4" fill="#fff" stroke="none" />
+              <circle cx="50" cy="225" r="12" /><circle cx="50" cy="225" r="4" fill="#fff" stroke="none" />
+              <circle cx="50" cy="300" r="12" /><circle cx="50" cy="300" r="4" fill="#fff" stroke="none" class="animate-pulse" />
+              <circle cx="50" cy="375" r="12" /><circle cx="50" cy="375" r="4" fill="#fff" stroke="none" />
+              <circle cx="50" cy="450" r="12" /><circle cx="50" cy="450" r="4" fill="#fff" stroke="none" />
             </g>
-
-            <!-- 2. Encoder Layer (4 Nodes - Bottlenecking) -->
-            <g fill="#050507" stroke="#6366f1" stroke-width="2.5">
-              <circle cx="200" cy="150" r="10" /><circle cx="200" cy="150" r="3" fill="#818cf8" stroke="none" />
-              <circle cx="200" cy="250" r="10" filter="url(#neonGlow)" /><circle cx="200" cy="250" r="4" fill="#fff" stroke="none" />
-              <circle cx="200" cy="350" r="10" filter="url(#neonGlow)" /><circle cx="200" cy="350" r="4" fill="#fff" stroke="none" />
-              <circle cx="200" cy="450" r="10" /><circle cx="200" cy="450" r="3" fill="#818cf8" stroke="none" />
+            <g fill="#050507" stroke="#6366f1" stroke-width="3">
+              <circle cx="200" cy="150" r="15" /><circle cx="200" cy="150" r="5" fill="#818cf8" stroke="none" />
+              <circle cx="200" cy="250" r="15" filter="url(#neonGlow)" /><circle cx="200" cy="250" r="6" fill="#fff" stroke="none" />
+              <circle cx="200" cy="350" r="15" filter="url(#neonGlow)" /><circle cx="200" cy="350" r="6" fill="#fff" stroke="none" />
+              <circle cx="200" cy="450" r="15" /><circle cx="200" cy="450" r="5" fill="#818cf8" stroke="none" />
             </g>
-
-            <!-- 4. Decoder Layer (4 Nodes - Expanding) -->
-            <g fill="#050507" stroke="#a855f7" stroke-width="2.5">
-              <circle cx="500" cy="150" r="10" /><circle cx="500" cy="150" r="3" fill="#c084fc" stroke="none" />
-              <circle cx="500" cy="250" r="10" filter="url(#neonGlow)" /><circle cx="500" cy="250" r="4" fill="#fff" stroke="none" />
-              <circle cx="500" cy="350" r="10" filter="url(#neonGlow)" /><circle cx="500" cy="350" r="4" fill="#fff" stroke="none" />
-              <circle cx="500" cy="450" r="10" /><circle cx="500" cy="450" r="3" fill="#c084fc" stroke="none" />
+            <g fill="#050507" stroke="#a855f7" stroke-width="3">
+              <circle cx="500" cy="150" r="15" /><circle cx="500" cy="150" r="5" fill="#c084fc" stroke="none" />
+              <circle cx="500" cy="250" r="15" filter="url(#neonGlow)" /><circle cx="500" cy="250" r="6" fill="#fff" stroke="none" />
+              <circle cx="500" cy="350" r="15" filter="url(#neonGlow)" /><circle cx="500" cy="350" r="6" fill="#fff" stroke="none" />
+              <circle cx="500" cy="450" r="15" /><circle cx="500" cy="450" r="5" fill="#c084fc" stroke="none" />
             </g>
-
-            <!-- 5. Output Layer (5 Nodes) -->
-            <g fill="#050507" stroke="#8b5cf6" stroke-width="2">
-              <circle cx="650" cy="150" r="8" /><circle cx="650" cy="150" r="2" fill="#fff" stroke="none" />
-              <circle cx="650" cy="225" r="8" /><circle cx="650" cy="225" r="2" fill="#fff" stroke="none" />
-              <circle cx="650" cy="300" r="8" /><circle cx="650" cy="300" r="2" fill="#fff" stroke="none" class="animate-pulse" />
-              <circle cx="650" cy="375" r="8" /><circle cx="650" cy="375" r="2" fill="#fff" stroke="none" />
-              <circle cx="650" cy="450" r="8" /><circle cx="650" cy="450" r="2" fill="#fff" stroke="none" />
+            <g fill="#050507" stroke="#8b5cf6" stroke-width="2.5">
+              <circle cx="650" cy="150" r="12" /><circle cx="650" cy="150" r="4" fill="#fff" stroke="none" />
+              <circle cx="650" cy="225" r="12" /><circle cx="650" cy="225" r="4" fill="#fff" stroke="none" />
+              <circle cx="650" cy="300" r="12" /><circle cx="650" cy="300" r="4" fill="#fff" stroke="none" class="animate-pulse" />
+              <circle cx="650" cy="375" r="12" /><circle cx="650" cy="375" r="4" fill="#fff" stroke="none" />
+              <circle cx="650" cy="450" r="12" /><circle cx="650" cy="450" r="4" fill="#fff" stroke="none" />
             </g>
           </g>
         </svg>
       </div>
 
-      <!-- Top Status Pills -->
-      <div class="absolute top-6 left-6 flex flex-col gap-2">
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
-          <span class="relative flex h-2 w-2">
+      <!-- Floating Status Pill -->
+      <div class="absolute top-6 lg:top-8 left-6 lg:left-8 z-10">
+        <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-[#050507]/60 border border-white/20 backdrop-blur-xl shadow-xl">
+          <span class="relative flex h-3 w-3">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
           </span>
-          <span class="text-[10px] font-medium text-neutral-300 tracking-wide uppercase">Active Training</span>
+          <span class="text-xs sm:text-sm font-bold text-white tracking-widest uppercase">Active Training</span>
         </div>
       </div>
 
-      <!-- High-End AI Diagnostics Dashboard Overlay -->
-      <div class="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 backdrop-blur-xl bg-black/50 border border-white/10 p-5 rounded-2xl shadow-[0_0_40px_rgba(0,0,0,0.5)]">
-        
-        <!-- Architecture Readout -->
-        <div class="flex flex-col gap-1.5">
-           <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-blue-400 flex items-center gap-2">
-             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-             Architecture
-           </span>
-           <span class="text-xs font-mono tracking-wider text-white">Deep Autoencoder // ResNet</span>
-        </div>
-
-        <!-- Live Metrics Grid -->
-        <div class="grid grid-cols-2 sm:flex gap-6 sm:gap-8">
-          <div class="flex flex-col gap-1.5 sm:text-right">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Parameters</span>
-            <span class="text-xs font-mono tracking-wider text-white">1.2B Active</span>
-          </div>
-          <div class="flex flex-col gap-1.5 sm:text-right">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Latent Dim</span>
-            <span class="text-xs font-mono tracking-wider text-indigo-300">512-Vector</span>
-          </div>
-          <div class="flex flex-col gap-1.5 sm:text-right col-span-2 sm:col-span-1">
-            <span class="text-[9px] font-mono uppercase tracking-[0.3em] text-neutral-500">Loss Grad.</span>
-            <span class="text-xs font-mono tracking-wider text-emerald-400">0.0031 <span class="text-rose-400 text-[10px] animate-pulse">∇ Backprop</span></span>
-          </div>
-        </div>
-
-      </div>
     </div>
   </div>
+  
 </section>
 
 <!-- UNIVERSITY OF GLOUCESTERSHIRE - NLP RESEARCH SECTION -->
