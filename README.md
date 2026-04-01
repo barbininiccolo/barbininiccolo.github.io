@@ -1,59 +1,70 @@
 <div align="center">
 
-# Niccolò Barbini
-### **AI Software Engineer** 
-*Specialising in Intelligent Systems, Computer Vision, and Robust Software Infrastructure.*
+<!-- HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=005f73&height=220&section=header&text=Niccolò%20Barbini&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077b5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/n-barbini)
-[![Live Portfolio](https://img.shields.io/badge/View_Live_Portfolio-black?style=flat-square&logo=safari&logoColor=white)](https://github.com/barbininiccolo)
-[![Location](https://img.shields.io/badge/Based_in-Cologne,_Germany-DE4437?style=flat-square&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Cologne,+Germany)
+<br />
+
+### **AI SOFTWARE ENGINEER**
+*Cologne, Germany*
+
+<br />
+
+---
+
+### **THE PROJECT**
+This is my personal portfolio. Welcome.
+
+<br />
 
 ---
 
 </div>
 
-## 🎯 Executive Summary
-This project is my personal professional hub.
+### **WHAT I DO**
 
-In this repository, you will find a platform built with the same philosophy I bring to my professional work: **Precision, Speed, and Reliability.**
+**COMPUTER VISION**
+I build systems that help computers "see" and understand images. I focus on taking these complex models and making them work in everyday apps.
 
----
+**WEB DEVELOPMENT**
+I create websites from the ground up. I handle everything from the visual design to the hidden code that makes sure the site is secure and fast.
+Often, these websites are built to let a user using AI.
 
-## ✨ What this project demonstrates
-This codebase serves as a proof of concept for several engineering skills:
+**RELIABLE ENGINEERING**
+I make sure software stays running. I use modern tools to automate testing and deployment so that the finished product is stable and dependable.
 
-*   **Modern User Experience:** A clean interface that is easy to navigate, mobile-friendly, and visually professional.
-*   **High Performance:** Optimised to load instantly. I believe that software should never keep a user waiting.
-*   **Attention to Detail:** Fully responsive design with a seamless transition between Light and Dark modes.
----
-
-## 🛠 Strategic Skillset
-
-### 🤖 Artificial Intelligence & Vision
-I build systems that can "see" and "think." I focus on taking AI out of the laboratory and putting it into production-grade software that solves real-world problems.
-
-### 💻 Full-Stack Engineering
-I develop complete platforms from the ground up. This means creating beautiful interfaces that are backed by secure, scalable, and fast server logic.
-
-### 🏗 Infrastructure & Quality (DevOps)
-I don't just write code; I ensure it stays running. I use industry-standard tools (like Docker and Automated Testing) to guarantee that the software is stable, maintainable, and easy to deploy.
+<br />
 
 ---
 
-## 🚀 The Technology Stack
+### **HOW THIS SITE WAS BUILT**
+I used a hybrid approach to build this portfolio. While I designed the architecture and wrote the core logic myself, I used **Generative AI** to help build the website—assisting with the visual layout, documentation, and parts of the code to ensure a polished result.
 
-*   **Frontend:** SvelteKit & TypeScript.
-*   **Styling:** Tailwind CSS & DaisyUI.
-*   **Deployment:** GitHub Actions & Pages (for automated, 24/7 global availability).
+<br />
+
 ---
 
-## 📫 Let's Connect
-I am always open to discussing new challenges in AI Engineering, Computer Vision, or Full-Stack Architecture.
+### **THE TOOLS**
 
-- **LinkedIn:** [linkedin.com/in/n-barbini](https://www.linkedin.com/in/n-barbini)
-- **GitHub:** [github.com/barbininiccolo](https://github.com/barbininiccolo)
+| CATEGORY | TOOLS |
+| :--- | :--- |
+| **THE LOOK** | SvelteKit, TypeScript, Tailwind CSS |
+| **THE ENGINE** | GitHub Actions |
+
+<br />
+
+---
 
 <div align="center">
-  <br />
-  <sub>Designed and Engineered with precision by Niccolò Barbini.</sub>
+
+### **LET'S CHAT**
+I am always open to new projects in AI and Software Engineering.
+
+[**LinkedIn**](https://www.linkedin.com/in/n-barbini) &nbsp; | &nbsp; [**GitHub**](https://github.com/barbininiccolo)
+
+<br />
+
+<sub>**Niccolò Barbini** | 2026</sub>
+<br />
+
 </div>
