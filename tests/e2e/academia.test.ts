@@ -14,6 +14,6 @@ test.describe('Academia Page E2E', () => {
 
 		// Verify the language cards are rendered in a grid
 		const languageCards = page.locator('.grid-cols-1.md\\:grid-cols-2 div.p-6');
-		await expect(languageCards).toHaveCount(3);
+		await expect(languageCards).toHaveCount(9);
 	});
 });
