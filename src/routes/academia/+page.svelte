@@ -124,6 +124,10 @@
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Svelte</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Docker</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Virtual Environments</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Virtual Machines</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Data analysis</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Basics of Statistics</span>
+					
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Network architecture</span>
 				</div>
 			</li>
@@ -139,7 +143,7 @@
 				</h3>
 				
 				<p class="text-xl font-light text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mb-6">
-					Beyond my interest in computer science, cyber security and Artificial Intelligence, I tried to explore different areas of interest.
+					Beyond my interest in computer science, cyber security and Artificial Intelligence, I am always trying to explore different areas of interest.
 				</p>
 
 				<div class="flex flex-wrap gap-3 max-w-2xl">
@@ -148,6 +152,8 @@
 					<span class="px-4 py-2 bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 rounded-full text-lg font-medium">Theatre playing</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Languages</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Cooking</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Stand up comedy</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">History</span>			
 				</div>
 			</li>
 		</ol>
