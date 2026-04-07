@@ -4,10 +4,37 @@
           title: "MSc Cyber Security Dissertation",
           link: "https://github.com/barbininiccolo/MSc-Cyber-Security-Dissertation-NLP-and-Phishing-emails-detection",
           role: "Researcher and developer",
-          date: "Autumn 2023",
-          reason: "This project was undertaken as part of the MSc Cyber Security programme, requiring focused research in a specialised area supported by a software implementation.",
+          date: "Spring-Autumn 2023",
+          reason: "As part of my master studies, I needed to find an area to research. I decided to conduct research in the realm of Phishing attack.",
           mission: "To develop an algorithm for phishing email detection using Natural Language Processing (NLP) techniques.",
           learning: "The project developed my postgraduate research skills and strengthened my proficiency in algorithm design and implementation using Python."
+        },
+        {
+          title: "AI cyber attacks detection system",
+          link: "https://github.com/barbininiccolo/AI-Cyber-Attacks-Detection-System",
+          role: "University module",
+          date: "Spring 2022",
+          reason: "As part of my master studies, I attended the Artificial Intelligence module. One request for the assignment submission was to build an ML classifier.",
+          mission: "To build a ML classifier to classify cyber attacks. Mainly, I used random forest and decision tree",
+          learning: "This practical assignment helped me to show my skills in programming and AI. It is worth to mention that the code developed here is not suitable for real world. It was used for University purposes."
+        },
+        {
+          title: "Handrwitten digit classification",
+          link: "https://github.com/barbininiccolo/Handwritten-Digit-Classification-with-Neural-Networks",
+          role: "University module",
+          date: "Spring 2022",
+          reason: "As part of my master studies, I attended the Artificial Intelligence module. During the laboratory session, I had the chance to work on deep learning.",
+          mission: "To provide a comprehensive example of building, training, and evaluating a neural network for digit recognition.",
+          learning: "This laboratory session helped me to test my skills in programming and AI. It is worth to mention that the code developed here is not suitable for real world. It was used for University purposes."
+        },
+        {
+          title: "Library system in C",
+          link: "https://github.com/barbininiccolo/Library-system-in-C",
+          role: "University module",
+          date: "Year 2016",
+          reason: "As part of my undergraduate studies, I learned the C programming language. As part of the assignment, I needed to show my knowledge of C by working with pointers.",
+          mission: "To build a demo version of a library management system in C. ",
+          learning: "I learned how to use the C programming language for a real world scenario."
         }
     ];
 </script>
@@ -53,7 +80,7 @@
           
           <!-- 1. The Reason -->
           <div class="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
-            <h4 class="text-sm uppercase tracking-wider text-gray-400 font-semibold mb-2">The Spark</h4>
+            <h4 class="text-sm uppercase tracking-wider text-gray-400 font-semibold mb-2">The Reason</h4>
             <p class="text-xl font-light text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl">
               {project.reason}
             </p>

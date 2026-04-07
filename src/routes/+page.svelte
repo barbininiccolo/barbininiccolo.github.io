@@ -52,9 +52,9 @@
     </h1>
     <p class="text-2xl md:text-3xl dark:text-gray-400 text-gray-600 max-w-4xl leading-relaxed font-light">
       I build scalable full-stack platforms. <br class="hidden md:block" />
-      Specialising in <span class="font-medium text-black dark:text-white">AI Engineering</span>, 
-      <span class="font-medium text-black dark:text-white">Computer Vision</span>, and 
-      <span class="font-medium text-black dark:text-white">DevOps</span>.
+      Specialising in <span class="font-medium text-black dark:text-white">AI/ML</span>, 
+      <span class="font-medium text-black dark:text-white"> Full stack</span>, and 
+      <span class="font-medium text-black dark:text-white"> Infrastructure</span>.
     </p>
   </div>
 
@@ -84,7 +84,7 @@
           </h2>
         </div>
         <p class="text-lg md:text-xl dark:text-gray-400 text-gray-600 leading-relaxed max-w-lg">
-          I don’t just write code; I build intelligent systems. From training custom AI models to deploying Dockerised microservices, I bring AI research into practical, production-grade applications.
+          I don’t just write code; I like to build intelligent systems. From training custom AI models to deploying them via Docker services, I like to bring AI research into practical, production-grade applications.
         </p>
       </div>
       <!-- Moving Gradient Spotlight inside the card -->
@@ -146,7 +146,7 @@
     <div use:tilt class="md:col-span-1 lg:col-span-2 p-10 rounded-[2.5rem] bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-xl flex flex-col justify-between group transition-all duration-300 ease-out relative overflow-hidden">
       <div class="text-6xl mb-2 relative z-10">🇩🇪</div>
       <div class="relative z-10 mt-8">
-        <div class="text-sm dark:text-gray-400 text-gray-500 uppercase tracking-wider font-semibold">HQ / Location</div>
+        <div class="text-sm dark:text-gray-400 text-gray-500 uppercase tracking-wider font-semibold">Location</div>
         <div class="font-bold text-2xl mt-1">Cologne, Germany</div>
       </div>
       <!-- Map lines/grid decoration -->

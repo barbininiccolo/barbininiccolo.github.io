@@ -449,8 +449,8 @@
 <!-- Previous experiences -->
 <section class="max-w-[1400px] mx-auto px-6 py-40 border-t border-white/10 mt-20">
   <div class="mb-32" use:reveal>
-    <h2 class="text-6xl md:text-8xl font-bold tracking-tighter mb-4">Infrastructure.</h2>
-    <p class="text-3xl opacity-40 font-light">Supporting the intelligence through robust IT operations.</p>
+    <h2 class="text-6xl md:text-8xl font-bold tracking-tighter mb-4">Internships.</h2>
+    <p class="text-3xl opacity-40 font-light">Exploring different areas of the IT world. From simple technical support to phishing campaign awareness.</p>
   </div>
 
   <!-- Row 1: Maggies 2019 -->
@@ -461,7 +461,7 @@
     </div>
     <div class="lg:col-span-8">
       <p class="text-2xl md:text-3xl font-light opacity-60 leading-snug">
-        Worked with the IT department in developing and studying phishing campaigns against the company. The software utilised in this task was <span class="text-blue-400 font-medium">Microsoft Azure</span>.
+        Worked with the IT department in developing and studying phishing campaigns against the company for employees training. The principal software utilised during this internship was <span class="text-blue-400 font-medium">Microsoft Azure</span>.
       </p>
     </div>
   </div>
@@ -474,7 +474,7 @@
     </div>
     <div class="lg:col-span-8">
       <p class="text-2xl md:text-3xl font-light opacity-60 leading-snug">
-        Worked for a <span class="text-black font-medium">data analysis project</span> with the aim of analysing UK postal codes and customers origins. Elaborated a plan to allocate resources (human and financial) around the UK.
+        Worked with the IT team for a <span class="text-black font-medium">data analysis project</span> with the aim of analysing UK postal codes and customers origins. The main software suit used during this internship was Microsoft Power BI.
       </p>
     </div>
   </div>
