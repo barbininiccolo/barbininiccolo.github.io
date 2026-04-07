@@ -71,7 +71,7 @@
 			<!-- Role 1 -->
 			<li class="ml-10">
 				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
-					<div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+					<div class="w-3 h-3 bg-blue-600 rounded-full"></div>
 				</span>
 				<h3 class="flex items-center mb-2 text-3xl font-bold text-gray-900 dark:text-white">
 					MSc Cyber Security award
@@ -99,7 +99,7 @@
 			<!-- Interests Node -->
 			<li class="ml-10">
 				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
-					<div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+					<div class="w-3 h-3 bg-blue-600 rounded-full"></div>
 				</span>
 				
 				<h3 class="flex items-center mb-4 text-3xl font-bold text-gray-900 dark:text-white">
@@ -127,7 +127,8 @@
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Virtual Machines</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Data analysis</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Basics of Statistics</span>
-					
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Software Engineering</span>
+					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Software Testing</span>
 					<span class="px-4 py-2 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 rounded-full text-lg font-medium">Network architecture</span>
 				</div>
 			</li>
@@ -135,7 +136,7 @@
 			<!-- Interests Node -->
 			<li class="ml-10">
 				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
-					<div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+					<div class="w-3 h-3 bg-blue-600 rounded-full"></div>
 				</span>
 				
 				<h3 class="flex items-center mb-4 text-3xl font-bold text-gray-900 dark:text-white">
@@ -169,7 +170,7 @@
 			<li class="ml-10">
 				<!-- Icon -->
 				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
-					<div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+					<div class="w-3 h-3 bg-blue-600 rounded-full"></div>
 				</span>
 				
 				<h3 class="flex items-center mb-6 text-3xl font-bold text-gray-900 dark:text-white">
@@ -232,6 +233,130 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</li>
+			<!-- Languages Node -->
+			<li class="ml-10">
+				<!-- Icon -->
+				<span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-[1.05rem] ring-8 ring-white dark:ring-black dark:bg-gray-800">
+					<div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+				</span>
+				
+				<h3 class="flex items-center mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+					Coding languages
+				</h3>
+				
+				<!-- Language Cards Grid -->
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl">
+					
+					<!-- Card 1: Python -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">High Medium Proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">Python</h4>
+							</div>
+							<!-- 4/5 Dots Visualization -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 2: Typescript -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Medium proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">Typescript</h4>
+							</div>
+							<!-- 3/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 3: Tailwind CSS/CSS -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Beginner proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">Tailwind CSS</h4>
+							</div>
+							<!-- 2/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Card 4: C -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Beginner proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">C</h4>
+							</div>
+							<!-- 1/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 5: JAVA -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Beginner proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">JAVA</h4>
+							</div>
+							<!-- 1/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 6: Svelte -->
+					<div class="p-6 rounded-2xl border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 hover:border-blue-200 dark:hover:border-blue-900 transition-colors shadow-sm">
+						<div class="flex flex-col h-full justify-between">
+							<div>
+								<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Low Medium Proficiency</span>
+								<h4 class="text-2xl font-bold text-gray-900 dark:text-white mt-1">Svelte/ Svelte kit</h4>
+							</div>
+							<!-- 2/5 Dots -->
+							<div class="flex gap-1.5 mt-4">
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-blue-600"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+								<div class="w-8 h-1.5 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</li>
 		</ol>
