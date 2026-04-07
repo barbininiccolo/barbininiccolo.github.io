@@ -25,7 +25,7 @@ test.describe('CV Page E2E', () => {
 		// Since the <ol> is gone, we verify the semantic section exists
 		const foundationSection = page.getByRole('heading', { 
 			level: 2, 
-			name: /Infrastructure|Foundation/i 
+			name: /Internships/i 
 		});
 		await expect(foundationSection).toBeVisible();
 
