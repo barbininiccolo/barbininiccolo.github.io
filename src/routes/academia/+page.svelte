@@ -3,7 +3,6 @@
 </script>
 
 <svelte:head>
-	<title>Academic CV</title>
 	<meta name="description" content="Academic background and research." />
 </svelte:head>
 
