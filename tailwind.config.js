@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
+
   content: ['./src/**/*.{html,js,svelte,ts,md}'],
+
   theme: {
     extend: {
       animation: {
@@ -29,12 +32,13 @@ export default {
       }
     },
   },
+
   plugins: [
     require('@tailwindcss/typography'),
     require("daisyui")
   ],
+
   daisyui: {
-    themes: ["lofi", "black"], 
-    darkTheme: "black",
+    themes: ["lofi"],
   },
 }
