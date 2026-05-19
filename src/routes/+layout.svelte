@@ -29,6 +29,7 @@
     normalizedPath === '/' ? 'Home' :
     normalizedPath === '/cv' ? 'CV' :
     normalizedPath === '/academia' ? 'Academic CV' :
+    normalizedPath === '/skills-interests' ? 'Skills & Interests' :
     normalizedPath === '/projects' ? 'Projects' :
     normalizedPath === '/blog' ? 'Blog' :
     'Niccolò Barbini';
@@ -56,6 +57,7 @@
         <a href="/" class="text-sm font-medium transition-colors {$page.url.pathname === '/' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">Home</a>
         <a href="/cv" class="text-sm font-medium transition-colors {normalizedPath === '/cv' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">CV</a>
         <a href="/academia" class="text-sm font-medium transition-colors {normalizedPath === '/academia' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">Academia</a>
+        <a href="/skills-interests" class="text-sm font-medium transition-colors {normalizedPath === '/skills-interests' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">Skills & Interests</a>
         <a href="/projects" class="text-sm font-medium transition-colors {normalizedPath === '/projects' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">Projects</a>
         <a href="/blog" class="text-sm font-medium transition-colors {normalizedPath === '/blog' ? 'text-black dark:text-white drop-shadow-md' : 'text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white'}">Blog</a>
       </div>
